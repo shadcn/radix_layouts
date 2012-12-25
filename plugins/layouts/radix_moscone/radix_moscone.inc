@@ -5,7 +5,6 @@ $plugin = array(
   'icon' => 'radix-moscone.png',
   'category' => t('Radix'),
   'theme' => 'radix_moscone',
-  'css' => 'radix-moscone.css',
   'regions' => array(
     'header' => t('Header'),
     'sidebar' => t('Content Sidebar'),

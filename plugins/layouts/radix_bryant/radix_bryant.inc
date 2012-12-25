@@ -5,7 +5,6 @@ $plugin = array(
   'icon' => 'radix-bryant.png',
   'category' => t('Radix'),
   'theme' => 'radix_bryant',
-  'css' => 'radix-bryant.css',
   'regions' => array(
     'sidebar' => t('Sidebar'),
     'contentmain' => t('Content'),

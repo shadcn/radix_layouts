@@ -5,7 +5,6 @@ $plugin = array(
   'icon' => 'radix-harris.png',
   'category' => t('Radix'),
   'theme' => 'radix_harris',
-  'css' => 'radix-harris.css',
   'regions' => array(
     'header' => t('Header'),
     'column1' => t('First Column'),
