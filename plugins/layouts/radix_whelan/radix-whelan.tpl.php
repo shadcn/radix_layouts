@@ -12,6 +12,7 @@
 
 <div class="panel-display whelan clearfix <?php if (!empty($classes)) { print $classes; } ?><?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
+<div class="container">
   <div class="row-fluid">
     <div class="span3 panel-panel">
       <div class="panel-panel-inner">
@@ -29,5 +30,6 @@
       </div>
     </div>
   </div>
+</div>
   
 </div><!-- /.whelan -->

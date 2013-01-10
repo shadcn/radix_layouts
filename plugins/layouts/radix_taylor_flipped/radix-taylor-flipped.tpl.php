@@ -12,42 +12,44 @@
 
 <div class="panel-display taylor-flipped clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
-  <?php if ($content['header']): ?>
-    <div class="row-fluid">
-      <div class="span12 header panel-panel">
-        <div class="panel-panel-inner">
-          <?php print $content['header']; ?>
+  <div class="container">
+    <?php if ($content['header']): ?>
+      <div class="row-fluid">
+        <div class="span12 header panel-panel">
+          <div class="panel-panel-inner">
+            <?php print $content['header']; ?>
+          </div>
         </div>
       </div>
-    </div>
-  <?php endif; ?>
+    <?php endif; ?>
 
-  <div class="row-fluid">
-    <div class="span3 sidebar panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['quarter1']; ?>
-      </div>
-    </div>
-    <div class="span3 sidebar panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['quarter2']; ?>
-      </div>
-    </div>
-    <div class="span6 content panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['half']; ?>
-      </div>
-    </div>
-  </div>
-  
-  <?php if ($content['footer']): ?>
     <div class="row-fluid">
-      <div class="span12 footer panel-panel">
+      <div class="span3 sidebar panel-panel">
         <div class="panel-panel-inner">
-          <?php print $content['footer']; ?>
+          <?php print $content['quarter1']; ?>
+        </div>
+      </div>
+      <div class="span3 sidebar panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['quarter2']; ?>
+        </div>
+      </div>
+      <div class="span6 content panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['half']; ?>
         </div>
       </div>
     </div>
-  <?php endif; ?>
+    
+    <?php if ($content['footer']): ?>
+      <div class="row-fluid">
+        <div class="span12 footer panel-panel">
+          <div class="panel-panel-inner">
+            <?php print $content['footer']; ?>
+          </div>
+        </div>
+      </div>
+    <?php endif; ?>
+</div>
   
 </div><!-- /.taylor -->

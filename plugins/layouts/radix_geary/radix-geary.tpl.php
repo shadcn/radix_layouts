@@ -12,28 +12,30 @@
 
 <div class="panel-display geary clearfix <?php if (!empty($classes)) { print $classes; } ?><?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
-  <div class="row-fluid">
-    <div class="span12 top panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['header']; ?>
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12 top panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['header']; ?>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <div class="row-fluid">
-    <div class="span4 sidebar panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['column1']; ?>
+    
+    <div class="row-fluid">
+      <div class="span4 sidebar panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['column1']; ?>
+        </div>
       </div>
-    </div>
-    <div class="span4 content panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['column2']; ?>
+      <div class="span4 content panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['column2']; ?>
+        </div>
       </div>
-    </div>
-    <div class="span4 sidebar panel-panel">
-      <div class="panel-panel-inner">
-        <?php print $content['column3']; ?>
+      <div class="span4 sidebar panel-panel">
+        <div class="panel-panel-inner">
+          <?php print $content['column3']; ?>
+        </div>
       </div>
     </div>
   </div>

@@ -12,6 +12,7 @@
 
 <div class="panel-display taylor-flipped clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
+<div class="container">
   <div class="row-fluid">
     <div class="span8">
       <?php if ($content['header']): ?>
@@ -63,5 +64,6 @@
       </div>
     </div>
   </div>
+</div>
   
 </div><!-- /.taylor -->
