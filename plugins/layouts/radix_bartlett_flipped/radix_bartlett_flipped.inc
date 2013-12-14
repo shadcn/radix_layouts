@@ -1,10 +1,10 @@
 <?php
 // Plugin definition
 $plugin = array(
-  'title' => t('Bartlett Flipped'),
-  'icon' => 'bartlett-flipped.png',
-  'category' => t('Panopoly'),
-  'theme' => 'bartlett_flipped',
+  'title' => t('Radix Bartlett Flipped'),
+  'icon' => 'radix-bartlett-flipped.png',
+  'category' => t('Radix'),
+  'theme' => 'radix-bartlett_flipped',
   'regions' => array(
     'sidebar' => t('Sidebar'),
     'contentheader' => t('Content Header'),
