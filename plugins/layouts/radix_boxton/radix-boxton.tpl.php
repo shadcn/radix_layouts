@@ -13,8 +13,8 @@
 <div class="panel-display boxton clearfix <?php if (!empty($classes)) { print $classes; } ?><?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
   <div class="container">
-    <div class="row-fluid">
-      <div class="span12 content panel-panel">
+    <div class="row">
+      <div class="col-md-12 content panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['contentmain']; ?>
         </div>

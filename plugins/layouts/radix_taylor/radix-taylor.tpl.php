@@ -13,34 +13,34 @@
 <div class="panel-display taylor clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
   <div class="container">
-    <div class="row-fluid">
-      <div class="span12 header panel-panel">
+    <div class="row">
+      <div class="col-md-12 header panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['header']; ?>
         </div>
       </div>
     </div>
 
-    <div class="row-fluid">
-      <div class="span6 content panel-panel">
+    <div class="row">
+      <div class="col-md-6 content panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['half']; ?>
         </div>
       </div>
-      <div class="span3 sidebar panel-panel">
+      <div class="col-md-3 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['quarter1']; ?>
         </div>
       </div>
-      <div class="span3 sidebar panel-panel">
+      <div class="col-md-3 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['quarter2']; ?>
         </div>
       </div>
     </div>
     
-    <div class="row-fluid">
-      <div class="span12 footer panel-panel">
+    <div class="row">
+      <div class="col-md-12 footer panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footer']; ?>
         </div>
