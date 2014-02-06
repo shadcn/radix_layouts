@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Mccoppin.
+ * Template for Radix Mccoppin.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

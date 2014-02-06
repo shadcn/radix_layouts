@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Bryant.
+ * Template for Radix Bryant.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

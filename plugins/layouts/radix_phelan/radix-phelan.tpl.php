@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Phelan.
+ * Template for Radix Phelan.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

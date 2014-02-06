@@ -2,7 +2,7 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Radix Sanderson'),
-  'icon' => 'radix_sanderson.png',
+  'icon' => 'radix-sanderson.png',
   'category' => t('Radix'),
   'theme' => 'radix_sanderson',
   'regions' => array(

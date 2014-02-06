@@ -2,7 +2,7 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Radix Phelan'),
-  'icon' => 'radix_phelan.png',
+  'icon' => 'radix-phelan.png',
   'category' => t('Radix'),
   'theme' => 'radix_phelan',
   'regions' => array(

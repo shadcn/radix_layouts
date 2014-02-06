@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Moscone.
+ * Template for Radix Moscone.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Boxton.
+ * Template for Radix Boxton.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

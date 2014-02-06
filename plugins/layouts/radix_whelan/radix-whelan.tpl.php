@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Whelan.
+ * Template for Radix Whelan.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

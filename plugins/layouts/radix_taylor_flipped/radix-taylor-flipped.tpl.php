@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Taylor Flipped.
+ * Template for Radix Taylor Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

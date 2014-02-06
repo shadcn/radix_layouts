@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Hewston Flipped.
+ * Template for Radix Hewston Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

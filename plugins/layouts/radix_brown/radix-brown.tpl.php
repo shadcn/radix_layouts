@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for default Radix Brown.
+ * Template for Radix Brown.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Geary.
+ * Template for Radix Geary.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

@@ -1,13 +1,14 @@
 <?php
 // Plugin definition
 $plugin = array(
-  'title' => t('Radix Whelan'),
-  'icon' => 'radix-whelan.png',
+  'title' => t('Radix Sutro'),
+  'icon' => 'radix-sutro.png',
   'category' => t('Radix'),
-  'theme' => 'radix_whelan',
+  'theme' => 'radix_sutro',
   'regions' => array(
+    'header' => t('Header'),
     'column1' => t('First Column'),
     'column2' => t('Second Column'),
-    'contentmain' => t('Content'),
+    'footer' => t('Footer'),
   ),
 );

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Sanderson Flipped.
+ * Template for Radix Sanderson Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

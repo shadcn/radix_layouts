@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Brenham.
+ * Template for Radix Brenham.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

@@ -43,4 +43,4 @@
 
     </div>
   </div>  
-</div>
+</div><!-- /.bartlett-flipped -->

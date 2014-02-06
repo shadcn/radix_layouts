@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Burr Flipped.
+ * Template for Radix Burr Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

@@ -2,7 +2,7 @@
 // Plugin definition
 $plugin = array(
   'title' => t('Radix Bartlett Flipped'),
-  'icon' => 'radix_bartlett_flipped.png',
+  'icon' => 'radix-bartlett-flipped.png',
   'category' => t('Radix'),
   'theme' => 'radix-bartlett_flipped',
   'regions' => array(
