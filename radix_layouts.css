@@ -862,3 +862,13 @@
     margin-left: 0;
   }
 }
+
+/**
+ * Fix for draggable tables.
+ */
+.tabledrag-handle .handle {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+}
