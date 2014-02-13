@@ -6,10 +6,10 @@ $plugin = array(
   'category' => t('Radix'),
   'theme' => 'radix_sanderson_flipped',
   'regions' => array(
-    'column1' => t('Row 1: First Column'),
-    'column2' => t('Row 1: Second Column'),
-    'column3' => t('Row 1: Third Column'),
-    'secondarycolumn1' => t('Row 2: First Column'),
-    'secondarycolumn2' => t('Row 2: Second Column'),
+    'column1' => t('row-fluid 1: First Column'),
+    'column2' => t('row-fluid 1: Second Column'),
+    'column3' => t('row-fluid 1: Third Column'),
+    'secondarycolumn1' => t('row-fluid 2: First Column'),
+    'secondarycolumn2' => t('row-fluid 2: Second Column'),
   ),
 );

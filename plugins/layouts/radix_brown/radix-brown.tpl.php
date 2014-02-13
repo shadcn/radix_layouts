@@ -14,13 +14,13 @@
 
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-8 content panel-panel">
+    <div class="row-fluid">
+      <div class="span8 content panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['slider']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['slidergutter']; ?>
         </div>
@@ -29,18 +29,18 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-4 sidebar panel-panel">
+    <div class="row-fluid">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column1']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column2']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column3']; ?>
         </div>
@@ -49,18 +49,18 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-4 sidebar panel-panel">
+    <div class="row-fluid">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn1']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn2']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="span4 sidebar panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn3']; ?>
         </div>
