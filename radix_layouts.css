@@ -885,3 +885,12 @@
   margin-left: -15px;
   margin-right: -15px;
 }
+
+/**
+ * Fixes for
+ */
+.mceToolbar table td a {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
