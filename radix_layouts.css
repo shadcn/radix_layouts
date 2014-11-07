@@ -872,3 +872,16 @@
   -webkit-box-sizing: content-box;
   -o-box-sizing: content-box;
 }
+
+/**
+ * Fixes for Nested Containers.
+ *
+ * @see
+ * https://www.drupal.org/node/2334871
+ * https://github.com/twbs/bootstrap/issues/11436#issuecomment-29580965
+ */
+.container .container {
+  width: auto;
+  margin-left: -15px;
+  margin-right: -15px;
+}
