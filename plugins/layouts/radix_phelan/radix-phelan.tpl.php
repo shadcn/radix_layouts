@@ -12,7 +12,7 @@
 
 <div class="panel-display phelan clearfix <?php if (!empty($classes)) { print $classes; } ?><?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 column1 panel-panel">
         <div class="panel-panel-inner">
