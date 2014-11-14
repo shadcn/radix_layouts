@@ -15,12 +15,12 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-8 content panel-panel">
+      <div class="col-md-8 radix-layouts-slider panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['slider']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-slidergutter panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['slidergutter']; ?>
         </div>
@@ -30,17 +30,17 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-column1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column1']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-column2 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column2']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-column3 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['column3']; ?>
         </div>
@@ -50,17 +50,17 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-footercolumn1 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn1']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-footercolumn2 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn2']; ?>
         </div>
       </div>
-      <div class="col-md-4 sidebar panel-panel">
+      <div class="col-md-4 radix-layouts-footercolumn3 panel-panel">
         <div class="panel-panel-inner">
           <?php print $content['footercolumn3']; ?>
         </div>
