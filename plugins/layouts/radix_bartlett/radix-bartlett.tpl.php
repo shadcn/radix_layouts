@@ -21,9 +21,9 @@
         </div>
       </div>
 
-      <div class="col-md-8 radix-layouts-contentheader panel-panel">
+      <div class="col-md-8 panel-panel">
         <div class="row">
-          <div class="col-md-12 content-header panel-panel">
+          <div class="col-md-12 radix-layouts-contentheader panel-panel">
             <div class="panel-panel-inner">
               <?php print $content['contentheader']; ?>
             </div>
