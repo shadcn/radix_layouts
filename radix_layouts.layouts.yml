@@ -1,0 +1,13 @@
+radix_bryant_flipped:
+  label: Radix Bryant Flipped
+  category: Radix
+  path: plugins/layouts/radix_bryant_flipped
+  theme: radix_bryant_flipped
+  icon: radix-bryant-flipped.png
+  # TODO: should probably always include this!
+  css: ../../../radix_layouts.css
+  regions:
+    sidebar:
+      label: Sidebar
+    contentmain:
+      label: Content

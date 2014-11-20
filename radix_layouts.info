@@ -1,6 +1,0 @@
-name = Radix Layouts
-description = Responsive panels layouts set to work with Panopoly and the Radix theme
-core = 7.x
-
-dependencies[] = panels
-stylesheets[all][] = radix_layouts.css
